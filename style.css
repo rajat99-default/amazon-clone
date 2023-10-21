@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar1{
+    background-color: #131921;
+    
+}
+
+#logo{
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#nav1 ul {
+    display: flex;
+    margin-left: 50px;
+    margin-top: -45px;
+}
+#nav1 ul li {
+    display: flex;
+    margin-left: 50px;
+    list-style-type: none; 
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#nav2 ul{
+    display: flex;
+    margin-left: 990px;
+    margin-top: -92px;
+}
+
+#nav2 ul li{
+    list-style-type: none;
+    padding: 37px 50px 10px 0px ;
+    color: white ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search-container {
+    position: absolute;
+    width: 600px; 
+    margin-left: 370px;
+    margin-top: -61px;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+
+  .search-button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .search-input::placeholder {
+    color: #0a0908; /* Change the text color for this specific input */
+    font-weight: bold; /* Make it bold */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+  #allnav{
+    display: flex;
+  }
