@@ -76,7 +76,61 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
-
-  #allnav{
-    display: flex;
+  #navbar2{
+    margin-top: -17px;
+    margin-left: 00px;
+    background-color: #1f2b3a;
+    
   }
+  
+  #navbar2 div{
+    margin: 10px;
+    display: flex;
+    margin-left: 19px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+ #bgimage img{
+    width: 1470px;
+    margin-top: -10px;
+
+ }
+
+ .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 30%, rgb(255, 255, 255) 80%);
+    pointer-events: none; /* Ensures the overlay doesn't interfere with mouse events on the image */
+}
+
+/* #image1{
+    position: absolute;
+    /* transition: left 1s; */
+    /* animation: imageslide 1s linear infinite ;
+} */
+
+@keyframes imageslide{
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+} 
+
+
+
+/* #image2{
+    position: absolute;
+}
+#image3{
+    position: absolute;
+} */
+
