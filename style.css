@@ -14,10 +14,65 @@ body{
     margin-top: 10px;
 }
 
+#deliver{
+    font-size: 13px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+#update{
+    position: absolute;
+    margin-top: 30px;
+    font-weight: 800;
+    margin-left: 12px;
+}
+
+#nav2language{
+    font-weight: 800;
+    margin-top: 53px;
+}
+
+
+#account{
+    position: absolute;
+    margin-top: 33px;
+    font-weight: 800;
+    
+    
+}
+#return{
+    position: absolute;
+    margin-top: 33px;
+    font-weight: 800;
+    margin-left: 120px;
+    
+}
+
+.order{
+    position: absolute;
+    margin-top: 39px;
+    font-size: 13px;
+    margin-left: 120px;
+}
+
+.hello{
+    position: absolute;
+    margin-top: 39px;
+    font-size: 13px;
+}
+
+#nav2cart{
+    position: absolute;
+    font-weight: 800;
+    margin-top: 53px;
+    margin-left: 360px;
+}
+
 #nav1 ul {
     display: flex;
     margin-left: 50px;
-    margin-top: -45px;
+    margin-top: -63px;
 }
 #nav1 ul li {
     display: flex;
