@@ -147,7 +147,7 @@ body{
   }
 
  #bgimage img{
-    width: 1470px;
+    width: 1440px;
     margin-top: -10px;
 
  }
@@ -162,30 +162,101 @@ body{
     pointer-events: none; /* Ensures the overlay doesn't interfere with mouse events on the image */
 }
 
-/* #image1{
+
+/* #div1{
+    padding: 190px 155px 190px 155px;
     position: absolute;
-    /* transition: left 1s; */
-    /* animation: imageslide 1s linear infinite ;
-} */
-
-@keyframes imageslide{
-    0% {
-        transform: translateX(0);
-    }
-    25% {
-        transform: translateX(-100%);
-    }
-    50% {
-        transform: translateX(-200%);
-    }
-} 
-
-
-
-/* #image2{
-    position: absolute;
+    background-color: rgb(255, 255, 255);
+   
+    margin-left: 30px;
+    box-shadow: 5px 5px 10px  rgba(196, 64, 64, 0.5);
+    margin-top: -320px;
+    
 }
-#image3{
+
+#div1 img{
+    width: 100px;
+}
+
+
+#div1 h2{
     position: absolute;
+    margin-top: -180px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -130px;
+}
+
+.div1image1{
+    position: absolute;
+    margin-left: -110px;
+    margin-top: -80px;
+}
+.div1image2{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 30px;
+}
+.div1image3{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -130px;
+}
+.div1image4{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+#div1soap{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#div1oil{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#div1hair{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#div1fibre{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } */
 
+
+.product-block {
+    position: absolute;
+    margin-left:30px;
+    margin-top: -330px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    max-width: 280px;
+    
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
+}
+
+.product-block h2 {
+    font-size: 24px;
+}
+
+.product-row {
+    display: flex;
+    
+}
+
+.product {
+    width: calc(50% - 10px);
+    /* 50% width with some spacing between the columns */
+    margin: 5px;
+    text-align: center;
+    background-color: #f0ebeb;
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product p {
+    font-size: 16px;
+    margin: 10px 0;
+}
