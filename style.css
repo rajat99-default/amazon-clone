@@ -1,68 +1,70 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
+    background-color: #fbfbfb;
 }
 
-#navbar1{
+#navbar1 {
     background-color: #131921;
-    
+
 }
 
-#logo{
+#logo {
     width: 100px;
     margin-left: 5px;
     margin-top: 10px;
 }
 
-#deliver{
+#deliver {
     font-size: 13px;
     position: absolute;
     margin-top: 20px;
     margin-left: 12px;
 }
 
-#update{
+#update {
     position: absolute;
     margin-top: 30px;
     font-weight: 800;
     margin-left: 12px;
 }
 
-#nav2language{
+#nav2language {
     font-weight: 800;
     margin-top: 53px;
 }
 
 
-#account{
+#account {
     position: absolute;
     margin-top: 33px;
     font-weight: 800;
-    
-    
+
+
 }
-#return{
+
+#return {
     position: absolute;
     margin-top: 33px;
     font-weight: 800;
     margin-left: 120px;
-    
+
 }
 
-.order{
+.order {
     position: absolute;
     margin-top: 39px;
     font-size: 13px;
     margin-left: 120px;
 }
 
-.hello{
+.hello {
     position: absolute;
     margin-top: 39px;
     font-size: 13px;
 }
 
-#nav2cart{
+#nav2cart {
     position: absolute;
     font-weight: 800;
     margin-top: 53px;
@@ -74,45 +76,46 @@ body{
     margin-left: 50px;
     margin-top: -63px;
 }
+
 #nav1 ul li {
     display: flex;
     margin-left: 50px;
-    list-style-type: none; 
+    list-style-type: none;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
-#nav2 ul{
+#nav2 ul {
     display: flex;
     margin-left: 990px;
     margin-top: -92px;
 }
 
-#nav2 ul li{
+#nav2 ul li {
     list-style-type: none;
-    padding: 37px 50px 10px 0px ;
-    color: white ;
+    padding: 37px 50px 10px 0px;
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .search-container {
     position: absolute;
-    width: 600px; 
+    width: 600px;
     margin-left: 370px;
     margin-top: -61px;
-  }
+}
 
-  .search-input {
+.search-input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
     outline: none;
-  }
+}
 
-  .search-button {
+.search-button {
     position: absolute;
     right: 5px;
     top: 50%;
@@ -123,43 +126,46 @@ body{
     border-radius: 0 5px 5px 0;
     padding: 10px;
     cursor: pointer;
-  }
+}
 
-  .search-input::placeholder {
-    color: #0a0908; /* Change the text color for this specific input */
-    font-weight: bold; /* Make it bold */
+.search-input::placeholder {
+    color: #0a0908;
+    /* Change the text color for this specific input */
+    font-weight: bold;
+    /* Make it bold */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+}
 
-  #navbar2{
+#navbar2 {
     margin-top: -17px;
     margin-left: 00px;
     background-color: #1f2b3a;
-    
-  }
-  
-  #navbar2 div{
+
+}
+
+#navbar2 div {
     margin: 10px;
     display: flex;
     margin-left: 19px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+}
 
- #bgimage img{
+#bgimage img {
     width: 1423px;
     margin-top: -10px;
 
- }
+}
 
- .gradient-overlay {
+.gradient-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 30%, rgb(255, 255, 255) 80%);
-    pointer-events: none; /* Ensures the overlay doesn't interfere with mouse events on the image */
+    pointer-events: none;
+    /* Ensures the overlay doesn't interfere with mouse events on the image */
 }
 
 
@@ -223,14 +229,14 @@ body{
 
 .product-block {
     position: absolute;
-    margin-left:17px;
+    margin-left: 17px;
     margin-top: -330px;
     text-align: center;
     background-color: #ffffff;
     padding: 0px 30px 0px 30px;
     max-width: 280px;
-    
-    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .product-block h2 {
@@ -239,7 +245,7 @@ body{
 
 .product-row {
     display: flex;
-    
+
 }
 
 .product {
@@ -265,14 +271,14 @@ body{
 
 .tv-block {
     position: absolute;
-    margin-left:378px;
+    margin-left: 378px;
     margin-top: -330px;
     text-align: center;
     background-color: #ffffff;
     padding: 50px 30px 7px 30px;
     max-width: 280px;
-    
-    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .tv-block h2 {
@@ -282,7 +288,7 @@ body{
 
 .tv-row {
     display: flex;
-    
+
 }
 
 .tv {
@@ -313,14 +319,14 @@ body{
 
 .mobiles-block {
     position: absolute;
-    margin-left:740px;
+    margin-left: 740px;
     margin-top: -330px;
     text-align: center;
     background-color: #ffffff;
     padding: 0px 30px 0px 30px;
     max-width: 280px;
-    
-    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .mobiles-block h2 {
@@ -329,7 +335,7 @@ body{
 
 .mobiles-row {
     display: flex;
-    
+
 }
 
 .mobiles {
@@ -353,3 +359,250 @@ body{
 
 /* ===========================Mobiles======================= */
 
+
+/* ==========================Headphones======================= */
+
+#headphone {
+    position: absolute;
+    padding: 0px 30px 125px 30px;
+    max-width: 280px;
+    /* border: 2px solid red; */
+    margin-left: 740px;
+    margin-top: -330px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#headphone img {
+    width: 400px;
+    max-width: 100%;
+}
+
+
+/* ==========================Headphones======================= */
+
+/* ==========================sign in============================== */
+
+
+.sign-button {
+    position: absolute;
+    margin-left: 1110px;
+    margin-top: -220px;
+    transform: translateY(-50%);
+    background-color: #fda116;
+    color: rgb(247, 230, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 95px 10px 95px;
+    /* cursor: pointer;  */
+    color: black;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#signin{
+    position: absolute;
+    margin-left: 1110px;
+    margin-top: -310px;
+}
+
+#signup{
+    background-color: white;
+}
+
+/* ==========================sign in========================= */
+
+
+/* =========================shoes============================ */
+
+.shoes-block {
+    position: absolute;
+    margin-left: 17px;
+    margin-top: 150px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0px 30px 57px 30px;
+    max-width: 280px;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.shoes-block h2 {
+    font-size: 24px;
+}
+
+.shoes-row {
+    display: flex;
+
+}
+
+.shoes {
+    width: calc(50% - 10px);
+    /* 50% width with some spacing between the columns */
+    margin: 5px;
+    text-align: center;
+    background-color: #f0ebeb;
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+}
+
+.shoes img {
+    max-width: 100%;
+}
+
+.shoes p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+
+
+/* =========================shoes============================ */
+
+
+/* =======================Kitchen=============================== */
+
+.kitchen-block {
+    position: absolute;
+    margin-left: 377px;
+    margin-top: 150px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0px 30px 0px 30px;
+    max-width: 280px;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.kitchen-block h2 {
+    font-size: 24px;
+}
+
+.kitchen-row {
+    display: flex;
+
+}
+
+.kitchen {
+    width: calc(50% - 10px);
+    /* 50% width with some spacing between the columns */
+    margin: 5px;
+    text-align: center;
+    background-color: #f0ebeb;
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+}
+
+.kitchen img {
+    max-width: 100%;
+}
+
+.kitchen p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+
+/* =======================Kitchen=============================== */
+
+
+/* =======================================freezer============================================= */
+
+
+.freezer-block {
+    position: absolute;
+    margin-left: 740px;
+    margin-top: 150px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0px 30px 0px 30px;
+    max-width: 280px;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.freezer-block h2 {
+    font-size: 24px;
+}
+
+.freezer-row {
+    display: flex;
+
+}
+
+.freezer {
+    width: calc(50% - 10px);
+    /* 50% width with some spacing between the columns */
+    margin: 5px;
+    text-align: center;
+    background-color: #f0ebeb;
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+}
+
+.freezer img {
+    max-width: 100%;
+}
+
+.freezer p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+
+
+
+/* =======================================freezer============================================= */
+
+
+
+
+/* ======================================================Laptop================================================== */
+
+#laptop {
+    position: absolute;
+    padding: 0px 30px 78px 30px;
+    max-width: 280px;
+    /* border: 2px solid red; */
+    margin-left: 1090px;
+    margin-top: 150px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#laptop img {
+    width: 400px;
+    max-width: 100%;
+}
+
+
+/* ======================================================Laptop================================================== */
+
+
+/* =====================================================lastnav======================================================== */
+
+#lastnav{
+    position: relative;
+    background-color: #232F3E;
+    
+}
+
+
+#lastnav1{
+    
+    margin-top: 800px;
+    margin-left: 250px;
+}
+
+/* =====================================================lastnav======================================================== */
+
+
+
+/* ==========================================================Footer================================================== */
+
+#footer{
+    margin-top: 800px;
+}
+
+
+/* ==========================================================Footer================================================== */
