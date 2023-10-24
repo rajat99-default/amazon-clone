@@ -716,4 +716,103 @@ body {
     margin-top: 990px;
     margin-left: -980px;
     rotate: 90deg;
+   
 }
+
+
+
+
+#smartmobile ul{
+    display: flex;
+}
+
+
+#smartmobile ul li{
+    list-style-type: none;
+    margin: 30px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+
+#smartmobile{
+    margin-top: -1240px;
+    margin-left: 200px;
+}
+
+
+#bgimage1{
+    margin-top: -20px;
+    width: 1190px;
+    margin-left: 230px;
+}
+
+#bggif img{
+    margin-left: 230px;
+    width: 1190px;
+}
+
+#bgimage2 ul li{
+    list-style-type: none;
+
+}
+
+#bgimage2 ul{
+    display: flex;
+    margin-left: 190px;
+    margin-top: -4px;
+}
+
+#subbgimage2{
+    width: 297.5px;
+    
+}
+
+#oneplus{
+    margin-left: 230px;
+    width: 1190px;
+    margin-top: -20px;
+}
+
+
+#bgimage3 ul li{
+    list-style-type: none;
+
+}
+
+#bgimage3 ul{
+    display: flex;
+    margin-left: 190px;
+    margin-top: -4px;
+}
+
+#narzo{
+    margin-left: 230px;
+    width: 1190px;
+    margin-top: -20px;
+}
+
+#bgimage4 ul li{
+    list-style-type: none;
+
+}
+
+#bgimage4 ul{
+    display: flex;
+    margin-left: 190px;
+    margin-top: -4px;
+}
+
+#bgimage5 ul li{
+    list-style-type: none;
+
+}
+
+#bgimage5 ul{
+    display: flex;
+    margin-left: 190px;
+    margin-top: -4px;
+}
+
+
