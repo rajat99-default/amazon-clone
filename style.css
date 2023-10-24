@@ -816,3 +816,53 @@ body {
 }
 
 
+#brands{
+    position: absolute;
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+#madebrands{
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#prime{
+    position: absolute;
+    margin-top: 57px;
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#primeamazon{
+    font-weight: 800;
+}
+
+
+
+#pay{
+    position: absolute;
+    margin-top: 113px;
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#payamazon{
+    font-weight: 800;
+}
+
+
+#companies{
+    position: absolute;
+    margin-top: 169px;
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#companiesamazon{
+    font-weight: 800;
+}
+
