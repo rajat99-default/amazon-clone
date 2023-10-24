@@ -400,13 +400,13 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#signin{
+#signin {
     position: absolute;
     margin-left: 1110px;
     margin-top: -310px;
 }
 
-#signup{
+#signup {
     background-color: white;
 }
 
@@ -581,15 +581,15 @@ body {
 
 /* =====================================================lastnav======================================================== */
 
-#lastnav{
+#lastnav {
     position: relative;
     background-color: #232F3E;
-    
+
 }
 
 
-#lastnav1{
-    
+#lastnav1 {
+
     margin-top: 800px;
     margin-left: 250px;
 }
@@ -600,7 +600,7 @@ body {
 
 /* ==========================================================Footer================================================== */
 
-#footer{
+#footer {
     margin-top: 700px;
 }
 
@@ -623,12 +623,12 @@ body {
     color: black;
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+
 }
 
 
-#signup2{
-    
+#signup2 {
+
     position: absolute;
     background-color: white;
     margin-top: 870px;
@@ -636,19 +636,84 @@ body {
 
 
 
-#mobile{
+#mobile {
     /* text-decoration: none; */
     color: white;
 }
 
 
-#smartwatches{
+#smartwatches {
     /* text-decoration: none; */
     color: white;
 }
 
 
-#freezers{
+#freezers {
     /* text-decoration: none; */
     color: white;
+}
+
+
+#subnav{
+    display: flex;
+}
+
+#subnav div{
+    margin: 11px;
+    margin-right: 40px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#subnav div img{
+    width: 110px;
+    margin-top: -14px;
+}
+
+
+#rulermobile{
+    margin-top: -16px;
+}
+
+
+#sidenav div caption{
+    margin-left: 20px;
+}
+
+#category1 li{
+    list-style-type: none;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin-left: -10px; */
+}
+
+
+#electro{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -10px;
+    margin-left: -15px;
+}
+
+#category{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15px;
+    font-weight: 800;
+}
+
+#accessories{
+    margin-left: -17px;
+    margin-top: -9px;
+    font-weight: 800;
+}
+
+#category2{
+    margin-left: -7px;
+    margin-top: -7px;
+    font-size: 16px;
+}
+
+#rulerside{
+    margin-top: 990px;
+    margin-left: -980px;
+    rotate: 90deg;
 }
